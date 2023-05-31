@@ -4,24 +4,36 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 450px;         /* Changed 400px to 450px to match the texts alignments in the content class or the 2nd box. The solution.css is wrong because it does not include this */
   background: #fff;
   margin: 16px auto;
-}
+  padding: 8px;
+} 
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
+  margin: 0 0 8px 0;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+  margin-top: 8px;          /* margin-top is used to separate the button-container to the .content*/
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  display: block;
+  margin: auto;
 }
