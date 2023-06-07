@@ -5,7 +5,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .header {
@@ -39,7 +38,7 @@
 
 }
 
-.sidebar ul li a{
+.sidebar a{
 
   color: white;
   font-size: 24px;
@@ -47,27 +46,26 @@
 
 }
 
-.sidebar ul li{
-  list-style-type: none;
+.sidebar li{
   margin-bottom: 18px;
 }
 
 ul{
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 
 .main{
-  display: inline-flex;
+  display: flex;
   flex: 1;
 }
 
 .boxes{
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
-  padding: 50px;
+  padding: 16px;
 
 }
 
@@ -75,9 +73,9 @@ ul{
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 15px;
-  min-height: 10em;
-  width: 18.8em;
+  padding: 16px;
+  width: 300px;
+  margin: 16px;
   flex-basis: auto;
 }
 
